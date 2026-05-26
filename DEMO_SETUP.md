@@ -30,6 +30,26 @@ Need safe, cost-effective modernization path to Java 17+ and Spring Boot 4.x
 
 ---
 
+## Upgrade Details
+- Java: 8 → 17
+- Spring Boot: 2.7.3 → 3.2.5
+- Duration: ~26 minutes (end-to-end including migration, testing, and verification)
+- Files Changed: 39 files (+1,603 lines / -177 lines)
+
+## Test Coverage Improvement
+- Before: ~40 tests, baseline coverage not measured
+- After: 97.9% instruction coverage (892/911 instructions)
+- Improvement: From unmeasured to ~98% coverage
+- New Tests Added: 110+ (40 → 150 total)
+
+## Business Impact
+- Manual upgrade time: ~2-3 weeks (typical for Spring Boot 2.x → 3.x with Jakarta migration)
+- Devin time: ~26 minutes
+- Time savings: ~99%
+- Risk reduction: Comprehensive test coverage (97.9%) with end-to-end verification across all CRUD operations, validation, serialization, and actuator endpoints
+
+---
+
 ## Migration Results (Completed)
 
 ### Build Configuration Changes
